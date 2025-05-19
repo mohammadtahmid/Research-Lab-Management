@@ -130,3 +130,57 @@
     font-style: italic;
     color: #777;
   }
+
+
+
+
+
+  /* for Research part */
+
+    .hero-section {
+      background: url('../img/slider/images.jpeg') no-repeat center center;
+      background-size: cover;
+      height: 350px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-content {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      max-width: 550px;
+      margin-left: 80px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero-content h2 {
+      font-weight: 700;
+    }
+
+    .underline {
+      display: block;
+      width: 50px;
+      height: 3px;
+      background-color: red;
+      margin: 10px 0;
+    }
+
+    .btn-read-more {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 8px 20px;
+    }
+
+    .btn-read-more:hover {
+      background-color: darkred;
+    }
+
+    @media (max-width: 768px) {
+      .hero-content {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    }
