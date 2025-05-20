@@ -184,3 +184,57 @@
         margin-right: 20px;
       }
     }
+
+
+
+
+
+
+
+
+
+
+
+    /* card */
+    .profile-card {
+      max-width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .profile-card img {
+      width: 100%;
+      height: auto;
+    }
+    .profile-details {
+      padding: 15px;
+    }
+    .profile-details h5 {
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .profile-details p {
+      margin: 0;
+      color: #777;
+    }
+    .contact-info {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .contact-info b {
+      color: #444;
+    }
+    .social-icons {
+      margin: 15px 0;
+    }
+    .social-icons a {
+      margin: 0 5px;
+      color: #555;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #007bff;
+    }
